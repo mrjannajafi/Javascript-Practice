@@ -8,7 +8,7 @@ const continent = "Asia" ;
 let population = 80000000 ;
 console.log(country , continent , population);
 
-// LECTURE: Data Types
+// LECTURE: Data Types.
 // 1. Declare a variable called 'isIsland' and set its value according to your
 // country. The variable should hold a Boolean value. Also declare a variable
 // 'language', but don't assign it any value yet
