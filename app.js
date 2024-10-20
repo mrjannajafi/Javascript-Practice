@@ -3,10 +3,10 @@
 // assign their values according to your own country (population in millions)
 // 2. Log their values to the console
 
-const country = "Iran" ;
-const continent = "Asia" ;
-let population = 80000000 ;
-console.log(country , continent , population);
+// const country = "Iran" ;
+// const continent = "Asia" ;
+// let population = 80000000 ;
+// console.log(country , continent , population);
 
 // LECTURE: Data Types.
 // 1. Declare a variable called 'isIsland' and set its value according to your
@@ -15,9 +15,9 @@ console.log(country , continent , population);
 // 2. Log the types of 'isIsland', 'population', 'country' and 'language'
 // to the console
 
-let isIsland = false ;
-let language ;
-console.log(country , continent , population , isIsland , language);
+// let isIsland = false ;
+// let language ;
+// console.log(country , continent , population , isIsland , language);
 
 // LECTURE: let, const and var
 // 1. Set the value of 'language' to the language spoken where you live (some
@@ -26,9 +26,9 @@ console.log(country , continent , population , isIsland , language);
 // change, and which might change?). Then, change these variables to const.
 // 3. Try to change one of the changed variables now, and observe what happens
 
- language = 'persian' ;
-isIsland = true ; 
-console.log(language , isIsland ) ;
+//  language = 'persian' ;
+// isIsland = true ; 
+// console.log(language , isIsland ) ;
 
 // LECTURE: Basic Operators
 // 1. If your country split in half, and each half would contain half the population,
@@ -42,15 +42,15 @@ console.log(language , isIsland ) ;
 // which contains a string with this format: 'Portugal is in Europe, and its 11 million
 // people speak portuguese
 
-const halfCountry = population / 2 ;
-console.log(halfCountry);
-population ++ ;
-console.log(population);
-const finland = 6000000 ;
-console.log(population > finland);
-console.log(population < 33000000);
-const description = country + " is in" +  continent +  " and its " + population + " people speak " + language ;
-console.log(description);
+// const halfCountry = population / 2 ;
+// console.log(halfCountry);
+// population ++ ;
+// console.log(population);
+// const finland = 6000000 ;
+// console.log(population > finland);
+// console.log(population < 33000000);
+// const description = country + " is in" +  continent +  " and its " + population + " people speak " + language ;
+// console.log(description);
 
 // JavaScript Fundamentals – Part 1
 // Coding Challenge #1
@@ -71,19 +71,19 @@ console.log(description);
 // m tall.
 // GOOD LUCK 😀
 
-const markMass = 78 ;
-const johnMass = 92 ;
-const markHeight = 1.69 ;
-const johnHeight = 1.95 ;
-// const markMass = 95 ;
-// const johnMass = 85 ;
-//  const markHeight = 1.88 ;
-// const johnHeight = 1.76 ; 
-const markBMI = markMass / (markHeight ** 2) ;
-const johnBMI = johnMass / (johnHeight ** 2) ;
-const markHigherBMI = markBMI > johnBMI ;
-console.log(markBMI , johnBMI) ; 
-console.log(markHigherBMI);
+// const markMass = 78 ;
+// const johnMass = 92 ;
+// const markHeight = 1.69 ;
+// const johnHeight = 1.95 ;
+// // const markMass = 95 ;
+// // const johnMass = 85 ;
+// //  const markHeight = 1.88 ;
+// // const johnHeight = 1.76 ; 
+// const markBMI = markMass / (markHeight ** 2) ;
+// const johnBMI = johnMass / (johnHeight ** 2) ;
+// const markHigherBMI = markBMI > johnBMI ;
+// console.log(markBMI , johnBMI) ; 
+// console.log(markHigherBMI);
 
 // Use the BMI example from Challenge #1, and the code you already wrote, and
 // improve it.
@@ -95,11 +95,11 @@ console.log(markHigherBMI);
 // Hint: Use an if/else statement 😉
 // GOOD LUCK 😀
 
-if (markBMI > johnBMI ) {
-    console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI}!`)
-} else {
-    console.log(`John's BMI  ${johnBMI} is higher than Mark's BMI ${markBMI}!`)
-}
+// if (markBMI > johnBMI ) {
+//     console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI}!`)
+// } else {
+//     console.log(`John's BMI  ${johnBMI} is higher than Mark's BMI ${markBMI}!`)
+// }
 
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
@@ -147,24 +147,106 @@ if (markBMI > johnBMI ) {
 
 //  practice 3 : 
 
-const dolphinsScoreFrist = 97 ;
-const dolphinsScoreSecond = 112 ;
-const dolphinsScoreThird = 101 ;
-const dolphinsAvrageScore = (dolphinsScoreFrist + dolphinsScoreSecond + dolphinsScoreThird) / 3 ;
+// const dolphinsScoreFrist = 97 ;
+// const dolphinsScoreSecond = 112 ;
+// const dolphinsScoreThird = 101 ;
+// const dolphinsAvrageScore = (dolphinsScoreFrist + dolphinsScoreSecond + dolphinsScoreThird) / 3 ;
 
-const koalasScoreFrist = 101;
-const koalasScoreSecond = 97 ;
-const koalasScoreThrid = 112 ; 
-const koalasAvrageScore = (koalasScoreFrist + koalasScoreSecond + koalasScoreThrid) / 3 ;
+// const koalasScoreFrist = 101;
+// const koalasScoreSecond = 97 ;
+// const koalasScoreThrid = 112 ; 
+// const koalasAvrageScore = (koalasScoreFrist + koalasScoreSecond + koalasScoreThrid) / 3 ;
 
- if (koalasAvrageScore > dolphinsAvrageScore && koalasAvrageScore >= 100 ) {
-    console.log( ` koala team is winner ${koalasAvrageScore}`);
- } else if (dolphinsAvrageScore > koalasAvrageScore && dolphinsAvrageScore >= 100) {
-    console.log( `dolphin team is winner ${dolphinsAvrageScore}`);
- }else if (dolphinsAvrageScore === koalasAvrageScore  &&  dolphinsAvrageScore >= 100 && koalasAvrageScore >= 100) {
-    console.log( ` both team are winners . `);
- } else{
-   console.log( `none of them winner 😮`);
- }
+//  if (koalasAvrageScore > dolphinsAvrageScore && koalasAvrageScore >= 100 ) {
+//     console.log( ` koala team is winner ${koalasAvrageScore}`);
+//  } else if (dolphinsAvrageScore > koalasAvrageScore && dolphinsAvrageScore >= 100) {
+//     console.log( `dolphin team is winner ${dolphinsAvrageScore}`);
+//  }else if (dolphinsAvrageScore === koalasAvrageScore  &&  dolphinsAvrageScore >= 100 && koalasAvrageScore >= 100) {
+//     console.log( ` both team are winners . `);
+//  } else{
+//    console.log( `none of them winner 😮`);
+//  }
+
+
+//  LECTURE: Type Conversion and Coercion
+//  1. Predict the result of these 5 operations without executing them:
+//  '9' - '5';
+//  '19' - '13' + '17';
+//  '19' - '13' + 17;
+//  '123' < 57;
+//  5 + 6 + '4' + 9 - 4 - 2;
+//  2. Execute the operations to check if you were right
+
+// let a = '9' - '5' ;// 4
+// let b = '19' - '13' + '17' ;// 617
+// let c = '19' - '13' + 17 ;// 23
+// let d = '123' < 57 ; // false
+// let e = 5 + 6 + '4' + 9 - 4 - 2 ;// 1143
+// console.log(a , b ,c , d , e );
+
+
+// LECTURE: Equality Operators: == vs. ===
+// 1. Declare a variable 'numNeighbours' based on a prompt input like this:
+// prompt('How many neighbour countries does your country
+// have?');
+// 2. If there is only 1 neighbour, log to the console 'Only 1 border!' (use loose equality
+// == for now)
+// 3. Use an else-if block to log 'More than 1 border' in case 'numNeighbours'
+// is greater than 1
+// 4. Use an else block to log 'No borders' (this block will be executed when
+// 'numNeighbours' is 0 or any other value)
+// 5. Test the code with different values of 'numNeighbours', including 1 and 0.
+// 6. Change == to ===, and test the code again, with the same values of
+// 'numNeighbours'. Notice what happens when there is exactly 1 border! Why
+// is this happening?
+// 7. Finally, convert 'numNeighbours' to a number, and watch what happens now
+// when you input 1
+// 8. Reflect on why we should use the === operator and type conversion in this
+// situation
+
+// const numNeighbours = prompt ('How many neighbour countries does your country?')
+// if (numNeighbours == 1 ){
+//    console.log( 'Only 1 border!');
+// }else if (numNeighbours > 1){
+// console.log(`numNeighbours is greater than 1`);
+// }else{
+//    console.log('No borders');
+// }
+
+// const numNeighbours = Number( prompt ('How many neighbour countries does your country?'))
+// console.log(numNeighbours);
+// if (numNeighbours === 1 ){
+//    console.log( 'Only 1 border!');
+// }else if (numNeighbours > 1){
+// console.log(`numNeighbours is greater than 1`);
+// }else{
+//    console.log('No borders');
+// }
+
+
+
+// LECTURE: Logical Operators
+// 1. Comment out the previous code so the prompt doesn't get in the way
+// 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
+// country that speaks english, has less than 50 million people and is not an
+// island.
+// 3. Write an if statement to help Sarah figure out if your country is right for her.
+// You will need to write a condition that accounts for all of Sarah's criteria. Take
+// your time with this, and check part of the solution if necessary.
+// 4. If yours is the right country, log a string like this: 'You should live in Portugal :)'. If
+// not, log 'Portugal does not meet your criteria :('
+// 5. Probably your country does not meet all the criteria. So go back and temporarily
+// change some variables in order to make the condition true (unless you live in
+// Canada :D)
+
+let language = 'english'
+let population = 220 ;
+let position = 'island' ; 
+
+if (language === 'english' || population < 50 ||  position === 'island' ) {
+  console.log(`She find best country`); 
+}else {
+   console.log(`She don't find best country `);
+}
 
 
