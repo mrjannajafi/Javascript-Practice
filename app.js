@@ -27,7 +27,7 @@
 // 3. Try to change one of the changed variables now, and observe what happens
 
 //  language = 'persian' ;
-// isIsland = true ; 
+// isIsland = true ;
 // console.log(language , isIsland ) ;
 
 // LECTURE: Basic Operators
@@ -78,11 +78,11 @@
 // // const markMass = 95 ;
 // // const johnMass = 85 ;
 // //  const markHeight = 1.88 ;
-// // const johnHeight = 1.76 ; 
+// // const johnHeight = 1.76 ;
 // const markBMI = markMass / (markHeight ** 2) ;
 // const johnBMI = johnMass / (johnHeight ** 2) ;
 // const markHigherBMI = markBMI > johnBMI ;
-// console.log(markBMI , johnBMI) ; 
+// console.log(markBMI , johnBMI) ;
 // console.log(markHigherBMI);
 
 // Use the BMI example from Challenge #1, and the code you already wrote, and
@@ -129,13 +129,12 @@
 
 // const koalasScoreFrist = 88 ;
 // const koalasScoreSecond = 91 ;
-// const koalasScoreThrid = 110 ; 
+// const koalasScoreThrid = 110 ;
 // const koalasAvrageScore = (88 + 91 +110) / 3 ;
 
 // console.log( koalasAvrageScore  , dolphinsAvrageScore);
 
 // practice 2 :
-
 
 //  if (koalasAvrageScore > dolphinsAvrageScore) {
 //     console.log( ` koala team is winner ${koalasAvrageScore}`);
@@ -145,7 +144,7 @@
 //     console.log( ` both team are winners . `);
 //  }
 
-//  practice 3 : 
+//  practice 3 :
 
 // const dolphinsScoreFrist = 97 ;
 // const dolphinsScoreSecond = 112 ;
@@ -154,7 +153,7 @@
 
 // const koalasScoreFrist = 101;
 // const koalasScoreSecond = 97 ;
-// const koalasScoreThrid = 112 ; 
+// const koalasScoreThrid = 112 ;
 // const koalasAvrageScore = (koalasScoreFrist + koalasScoreSecond + koalasScoreThrid) / 3 ;
 
 //  if (koalasAvrageScore > dolphinsAvrageScore && koalasAvrageScore >= 100 ) {
@@ -166,7 +165,6 @@
 //  } else{
 //    console.log( `none of them winner 😮`);
 //  }
-
 
 //  LECTURE: Type Conversion and Coercion
 //  1. Predict the result of these 5 operations without executing them:
@@ -183,7 +181,6 @@
 // let d = '123' < 57 ; // false
 // let e = 5 + 6 + '4' + 9 - 4 - 2 ;// 1143
 // console.log(a , b ,c , d , e );
-
 
 // LECTURE: Equality Operators: == vs. ===
 // 1. Declare a variable 'numNeighbours' based on a prompt input like this:
@@ -223,8 +220,6 @@
 //    console.log('No borders');
 // }
 
-
-
 // LECTURE: Logical Operators
 // 1. Comment out the previous code so the prompt doesn't get in the way
 // 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
@@ -241,10 +236,10 @@
 
 // let language = 'english'
 // let population = 220 ;
-// let position = 'island' ; 
+// let position = 'island' ;
 
 // if (language === 'english' || population < 50 ||  position === 'island' ) {
-//   console.log(`She find best country`); 
+//   console.log(`She find best country`);
 // }else {
 //    console.log(`She don't find best country `);
 // }
@@ -267,7 +262,47 @@
 // § Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 // GOOD LUCK 😀
 
-const bill = 1234; 
-const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2 ;
-console.log(`the bill was ${bill} , the tip was ${tip} and total value was ${bill + tip}`);
+// const bill = 1234;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2 ;
+// console.log(`the bill was ${bill} , the tip was ${tip} and total value was ${bill + tip}`);
 
+// JavaScript Fundamentals – Part 2
+// Coding Challenge #1
+// Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
+// gymnastics discipline, which works differently.
+// Each team competes 3 times, and then the average of the 3 scores is calculated (so
+// one average score per team).
+// A team only wins if it has at least double the average score of the other team.
+// Otherwise, no team wins!
+// Your tasks:
+// 1. Create an arrow function 'calcAverage' to calculate the average of 3 scores
+// 2. Use the function to calculate the average for both teams
+// 3. Create a function 'checkWinner' that takes the average score of each team
+// as parameters ('avgDolhins' and 'avgKoalas'), and then logs the winner
+// to the console, together with the victory points, according to the rule above.
+// Example: "Koalas win (30 vs. 13)"
+// 4. Use the 'checkWinner' function to determine the winner for both Data 1 and
+// Data 2
+// 5. Ignore draws this time
+// Test data:
+// § Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
+// § Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
+// Hints:
+// § To calculate average of 3 values, add them all together and divide by 3
+// § To check if number A is at least double number B, check for A >= 2 * B.
+// Apply this to the team's average scores 😉
+// GOOD LUCK 😀
+
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+const dolphinsScore = calcAverage(44, 23, 71);
+const koalasScore = calcAverage(65, 54, 49);
+const checkWinner = function (avgDolhins, avgKoalas) {
+  if (avgDolhins >= 2 * avgKoalas) {
+    return `dolphins score is ${dolphinsScore} . dolphins are winner .`;
+  } else if (avgKoalas >= 2 * avgDolhins) {
+    return `dolphins score is ${koalasScore} . dolphins are winner .`;
+  } else {
+    return `both of them looser .`;
+  }
+};
+console.log(checkWinner(dolphinsScore, koalasScore));
