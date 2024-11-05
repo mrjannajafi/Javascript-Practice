@@ -328,16 +328,65 @@
 // array) 😉
 // GOOD LUCK 😀
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-};
-const bills = [125, 555, 44];
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+// const bills = [125, 555, 44];
 
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 
-const total = [tips[0]+ bills[0] ,tips[1]+ bills[1] ,tips[2]+ bills[2] ]
+// const total = [tips[0]+ bills[0] ,tips[1]+ bills[1] ,tips[2]+ bills[2] ]
 
-console.log(tips);
+// console.log(tips);
 
-console.log(total);
+// console.log(total);
 
+// Coding Challenge #3
+// Let's go back to Mark and John comparing their BMIs! This time, let's use objects to
+// implement the calculations! Remember: BMI = mass / height ** 2 = mass
+// / (height * height) (mass in kg and height in meter)
+// Your tasks:
+// 1. For each of them, create an object with properties for their full name, mass, and
+// height (Mark Miller and John Smith)
+// 2. Create a 'calcBMI' method on each object to calculate the BMI (the same
+// method on both objects). Store the BMI value to a property, and also return it
+// from the method
+// 3. Log to the console who has the higher BMI, together with the full name and the
+// respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
+// Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
+// tall.
+// GOOD LUCK 😀
+
+const infoPerson1 = {
+  fristName : 'Mark' ,
+  lastName : 'Miller' , 
+  mass : 78 ,
+  height : 1.69 ,
+  calcBMI : function () {
+    this.bmi = this.mass / this.height ** 2 
+    return this.bmi
+  }
+}
+
+const infoPerson2 = {
+  fristName : 'John' ,
+  lastName : 'Smith' , 
+  mass : 200 ,
+  height : 1.95 ,
+  calcBMI : function () {
+    this.bmi = this.mass / this.height ** 2 ;
+    return this.bmi
+  }
+}
+
+infoPerson1.calcBMI() ;
+infoPerson2.calcBMI() ;
+
+
+if (infoPerson1.bmi > infoPerson2.bmi) {
+  console.log(`${infoPerson1.fristName}'s BMI ${infoPerson1.bmi} higher than ${infoPerson2.fristName}'s BMI ${infoPerson2.bmi}`);
+}else if (infoPerson2.bmi > infoPerson1.bmi) {
+  console.log(`${infoPerson2.fristName}'s BMI ${infoPerson2.bmi} higher than ${infoPerson1.fristName}'s BMI ${infoPerson1.bmi}`);
+}else{
+  console.log(`both are equall BMI`);
+}
