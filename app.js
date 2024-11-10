@@ -7,7 +7,7 @@
 // const continent = "Asia" ;
 // let population = 80000000 ;
 // console.log(country , continent , population);
-
+// 🟢🟡🟠🔴🔵🟣
 // LECTURE: Data Types.
 // 1. Declare a variable called 'isIsland' and set its value according to your
 // country. The variable should hold a Boolean value. Also declare a variable
@@ -18,7 +18,7 @@
 // let isIsland = false ;
 // let language ;
 // console.log(country , continent , population , isIsland , language);
-
+// 🟢🟡🟠🔴🔵🟣
 // LECTURE: let, const and var
 // 1. Set the value of 'language' to the language spoken where you live (some
 // countries have multiple languages, but just choose one)
@@ -51,7 +51,7 @@
 // console.log(population < 33000000);
 // const description = country + " is in" +  continent +  " and its " + population + " people speak " + language ;
 // console.log(description);
-
+// 🟢🟡🟠🔴🔵🟣
 // JavaScript Fundamentals – Part 1
 // Coding Challenge #1
 // Mark and John are trying to compare their BMI (Body Mass Index), which is
@@ -84,7 +84,7 @@
 // const markHigherBMI = markBMI > johnBMI ;
 // console.log(markBMI , johnBMI) ;
 // console.log(markHigherBMI);
-
+// 🟢🟡🟠🔴🔵🟣
 // Use the BMI example from Challenge #1, and the code you already wrote, and
 // improve it.
 // Your tasks:
@@ -100,7 +100,7 @@
 // } else {
 //     console.log(`John's BMI  ${johnBMI} is higher than Mark's BMI ${markBMI}!`)
 // }
-
+// 🟢🟡🟠🔴🔵🟣
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
 // Your tasks:
@@ -143,7 +143,7 @@
 //  }else if (dolphinsAvrageScore === koalasAvrageScore ) {
 //     console.log( ` both team are winners . `);
 //  }
-
+// 🟢🟡🟠🔴🔵🟣
 //  practice 3 :
 
 // const dolphinsScoreFrist = 97 ;
@@ -165,7 +165,7 @@
 //  } else{
 //    console.log( `none of them winner 😮`);
 //  }
-
+// 🟢🟡🟠🔴🔵🟣
 //  LECTURE: Type Conversion and Coercion
 //  1. Predict the result of these 5 operations without executing them:
 //  '9' - '5';
@@ -181,7 +181,7 @@
 // let d = '123' < 57 ; // false
 // let e = 5 + 6 + '4' + 9 - 4 - 2 ;// 1143
 // console.log(a , b ,c , d , e );
-
+// 🟢🟡🟠🔴🔵🟣
 // LECTURE: Equality Operators: == vs. ===
 // 1. Declare a variable 'numNeighbours' based on a prompt input like this:
 // prompt('How many neighbour countries does your country
@@ -219,7 +219,7 @@
 // }else{
 //    console.log('No borders');
 // }
-
+// 🟢🟡🟠🔴🔵🟣
 // LECTURE: Logical Operators
 // 1. Comment out the previous code so the prompt doesn't get in the way
 // 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
@@ -243,7 +243,7 @@
 // }else {
 //    console.log(`She don't find best country `);
 // }
-
+// 🟢🟡🟠🔴🔵🟣
 // Steven wants to build a very simple tip calculator for whenever he goes eating in a
 // restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and
 // 300. If the value is different, the tip is 20%.
@@ -265,7 +265,7 @@
 // const bill = 1234;
 // const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2 ;
 // console.log(`the bill was ${bill} , the tip was ${tip} and total value was ${bill + tip}`);
-
+// 🟢🟡🟠🔴🔵🟣
 // JavaScript Fundamentals – Part 2
 // Coding Challenge #1
 // Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
@@ -292,7 +292,7 @@
 // § To check if number A is at least double number B, check for A >= 2 * B.
 // Apply this to the team's average scores 😉
 // GOOD LUCK 😀
-
+// 🟢🟡🟠🔴🔵🟣
 // const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 // const dolphinsScore = calcAverage(44, 23, 71);
 // const koalasScore = calcAverage(65, 54, 49);
@@ -340,7 +340,7 @@
 // console.log(tips);
 
 // console.log(total);
-
+// 🟢🟡🟠🔴🔵🟣
 // Coding Challenge #3
 // Let's go back to Mark and John comparing their BMIs! This time, let's use objects to
 // implement the calculations! Remember: BMI = mass / height ** 2 = mass
@@ -359,18 +359,18 @@
 
 // const infoPerson1 = {
 //   fristName : 'Mark' ,
-//   lastName : 'Miller' , 
+//   lastName : 'Miller' ,
 //   mass : 78 ,
 //   height : 1.69 ,
 //   calcBMI : function () {
-//     this.bmi = this.mass / this.height ** 2 
+//     this.bmi = this.mass / this.height ** 2
 //     return this.bmi
 //   }
 // }
 
 // const infoPerson2 = {
 //   fristName : 'John' ,
-//   lastName : 'Smith' , 
+//   lastName : 'Smith' ,
 //   mass : 200 ,
 //   height : 1.95 ,
 //   calcBMI : function () {
@@ -382,7 +382,6 @@
 // infoPerson1.calcBMI() ;
 // infoPerson2.calcBMI() ;
 
-
 // if (infoPerson1.bmi > infoPerson2.bmi) {
 //   console.log(`${infoPerson1.fristName}'s BMI ${infoPerson1.bmi} higher than ${infoPerson2.fristName}'s BMI ${infoPerson2.bmi}`);
 // }else if (infoPerson2.bmi > infoPerson1.bmi) {
@@ -390,7 +389,7 @@
 // }else{
 //   console.log(`both are equall BMI`);
 // }
-
+// 🟢🟡🟠🔴🔵🟣
 // Let's improve Steven's tip calculator even more, this time using loops!
 // Your tasks:
 // 1. Create an array 'bills' containing all 10 test bill values
@@ -416,21 +415,82 @@
 // 4.3. Call the function with the 'totals' array
 // GOOD LUCK 😀
 
-const bills = [ 22, 295, 176, 440, 37, 105, 10, 1100, 86 , 52 ] ; 
-const totals = [] ;
-const tips = [] ;
-for (let i = 0; i < bills.length; i++) {
-  const calculates = bills[i] >= 50 && bills[i] <= 300 ? bills[i] * 0.15 : bills[i] * 0.2;
-  tips.push(calculates);
-  totals.push(calculates+bills[i]);
-}
-console.log(tips , totals);
+// const bills = [ 22, 295, 176, 440, 37, 105, 10, 1100, 86 , 52 ] ;
+// const totals = [] ;
+// const tips = [] ;
+// for (let i = 0; i < bills.length; i++) {
+//   const calculates = bills[i] >= 50 && bills[i] <= 300 ? bills[i] * 0.15 : bills[i] * 0.2;
+//   tips.push(calculates);
+//   totals.push(calculates+bills[i]);
+// }
+// console.log(tips , totals);
 
-const calcAverage = function (arr) {
-  let sum = 0 ;
-  for (let i = 0; i < arr.length; i++) {
-sum += arr[i]    
-  }
-  return sum / arr.length;
-}
-console.log(calcAverage(tips));
+// const calcAverage = function (arr) {
+//   let sum = 0 ;
+//   for (let i = 0; i < arr.length; i++) {
+// sum += arr[i]
+//   }
+//   return sum / arr.length;
+// }
+// console.log(calcAverage(tips));
+// 🟢🟡🟠🔴🔵🟣
+// LECTURE: Functions
+// 1. Write a function called 'describeCountry' which takes three parameters:
+// 'country', 'population' and 'capitalCity'. Based on this input, the
+// function returns a string with this format: 'Finland has 6 million people and its
+// capital city is Helsinki'
+// 2. Call this function 3 times, with input data for 3 different countries. Store the
+// returned values in 3 different variables, and log them to the consol
+// const describeCountry = function (country, population, capitalCity) {
+//   return `${country} has ${population} million people and its
+//  capital city is ${capitalCity}`;
+// };
+// console.log(describeCountry("Iran", 80, "Tehran"));
+// 🟢🟡🟠🔴🔵🟣
+// LECTURE: Function Declarations vs. Expressions
+// 1. The world population is 7900 million people. Create a function declaration
+// called 'percentageOfWorld1' which receives a 'population' value, and
+// returns the percentage of the world population that the given population
+// represents. For example, China has 1441 million people, so it's about 18.2% of
+// the world population
+// 2. To calculate the percentage, divide the given 'population' value by 7900
+// and then multiply by 100
+// 3. Call 'percentageOfWorld1' for 3 populations of countries of your choice,
+// store the results into variables, and log them to the console
+// 4. Create a function expression which does the exact same thing, called
+// 'percentageOfWorld2', and also call it with 3 country populations (can be
+// the same populations)
+// LECTURE: Arrow Functions
+// 1. Recreate the last assignment, but this time create an arrow function called
+// 'percentageOfWorld3'
+// Declarations Function :
+// function percentageOfWorld1 (population) {
+//   const percentage = (population / 7900 ) * 100 ;
+//   return `Iran has ${population} million people, so it's about ${percentage}% of
+//  the world population `
+// } ;
+// console.log(percentageOfWorld1(80));
+// Expression Function :
+// const percentageOfWorld2 = function (population) {
+//   const percentage = (population / 7900 ) * 100 ;
+//   return `China has ${population} million people, so it's about ${percentage}% of
+//  the world population `
+// } ;
+// console.log(percentageOfWorld2(1000));
+// Arrow Function:
+// const percentageOfWorld3 = (populationWorld) => (populationWorld / 7900) * 100;
+//  console.log(percentageOfWorld3(12));
+// LECTURE: Functions Calling Other Functions
+// 1. Create a function called 'describePopulation'. Use the function type you
+// like the most. This function takes in two arguments: 'country' and
+// 'population', and returns a string like this: 'China has 1441 million people,
+// which is about 18.2% of the world.'
+// 2. To calculate the percentage, 'describePopulation' call the
+// 'percentageOfWorld1' you created earlier
+// 3. Call 'describePopulation' with data for 3 countries of your choice
+// const describePopulation = function (country, population) {
+//   const percentage = percentageOfWorld3(population) ;
+//   return `${country} has ${population} million people,which is about ${percentage} of the world. `  
+// };
+// console.log(describePopulation('Iran' , 80));
+// 🟢🟡🟠🔴🔵🟣
