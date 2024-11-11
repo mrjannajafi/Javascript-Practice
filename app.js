@@ -1,3 +1,4 @@
+// 🟢🟡🟠🔴🔵🟣1
 // LECTURE: Values and Variables
 // 1. Declare variables called 'country', 'continent' and 'population' and
 // assign their values according to your own country (population in millions)
@@ -7,7 +8,7 @@
 // const continent = "Asia" ;
 // let population = 80000000 ;
 // console.log(country , continent , population);
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣2
 // LECTURE: Data Types.
 // 1. Declare a variable called 'isIsland' and set its value according to your
 // country. The variable should hold a Boolean value. Also declare a variable
@@ -18,7 +19,7 @@
 // let isIsland = false ;
 // let language ;
 // console.log(country , continent , population , isIsland , language);
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣3
 // LECTURE: let, const and var
 // 1. Set the value of 'language' to the language spoken where you live (some
 // countries have multiple languages, but just choose one)
@@ -51,7 +52,7 @@
 // console.log(population < 33000000);
 // const description = country + " is in" +  continent +  " and its " + population + " people speak " + language ;
 // console.log(description);
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣4
 // JavaScript Fundamentals – Part 1
 // Coding Challenge #1
 // Mark and John are trying to compare their BMI (Body Mass Index), which is
@@ -84,7 +85,7 @@
 // const markHigherBMI = markBMI > johnBMI ;
 // console.log(markBMI , johnBMI) ;
 // console.log(markHigherBMI);
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣5
 // Use the BMI example from Challenge #1, and the code you already wrote, and
 // improve it.
 // Your tasks:
@@ -100,7 +101,7 @@
 // } else {
 //     console.log(`John's BMI  ${johnBMI} is higher than Mark's BMI ${markBMI}!`)
 // }
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣6
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
 // Your tasks:
@@ -143,7 +144,7 @@
 //  }else if (dolphinsAvrageScore === koalasAvrageScore ) {
 //     console.log( ` both team are winners . `);
 //  }
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣7
 //  practice 3 :
 
 // const dolphinsScoreFrist = 97 ;
@@ -165,7 +166,7 @@
 //  } else{
 //    console.log( `none of them winner 😮`);
 //  }
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣8
 //  LECTURE: Type Conversion and Coercion
 //  1. Predict the result of these 5 operations without executing them:
 //  '9' - '5';
@@ -181,7 +182,7 @@
 // let d = '123' < 57 ; // false
 // let e = 5 + 6 + '4' + 9 - 4 - 2 ;// 1143
 // console.log(a , b ,c , d , e );
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣9
 // LECTURE: Equality Operators: == vs. ===
 // 1. Declare a variable 'numNeighbours' based on a prompt input like this:
 // prompt('How many neighbour countries does your country
@@ -219,7 +220,7 @@
 // }else{
 //    console.log('No borders');
 // }
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣10
 // LECTURE: Logical Operators
 // 1. Comment out the previous code so the prompt doesn't get in the way
 // 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
@@ -243,7 +244,7 @@
 // }else {
 //    console.log(`She don't find best country `);
 // }
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣11
 // Steven wants to build a very simple tip calculator for whenever he goes eating in a
 // restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and
 // 300. If the value is different, the tip is 20%.
@@ -265,7 +266,7 @@
 // const bill = 1234;
 // const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2 ;
 // console.log(`the bill was ${bill} , the tip was ${tip} and total value was ${bill + tip}`);
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣12
 // JavaScript Fundamentals – Part 2
 // Coding Challenge #1
 // Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
@@ -292,7 +293,7 @@
 // § To check if number A is at least double number B, check for A >= 2 * B.
 // Apply this to the team's average scores 😉
 // GOOD LUCK 😀
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣13
 // const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 // const dolphinsScore = calcAverage(44, 23, 71);
 // const koalasScore = calcAverage(65, 54, 49);
@@ -340,7 +341,7 @@
 // console.log(tips);
 
 // console.log(total);
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣14
 // Coding Challenge #3
 // Let's go back to Mark and John comparing their BMIs! This time, let's use objects to
 // implement the calculations! Remember: BMI = mass / height ** 2 = mass
@@ -389,7 +390,7 @@
 // }else{
 //   console.log(`both are equall BMI`);
 // }
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣14
 // Let's improve Steven's tip calculator even more, this time using loops!
 // Your tasks:
 // 1. Create an array 'bills' containing all 10 test bill values
@@ -433,7 +434,7 @@
 //   return sum / arr.length;
 // }
 // console.log(calcAverage(tips));
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣16
 // LECTURE: Functions
 // 1. Write a function called 'describeCountry' which takes three parameters:
 // 'country', 'population' and 'capitalCity'. Based on this input, the
@@ -441,12 +442,13 @@
 // capital city is Helsinki'
 // 2. Call this function 3 times, with input data for 3 different countries. Store the
 // returned values in 3 different variables, and log them to the consol
+// debugger ;
 // const describeCountry = function (country, population, capitalCity) {
 //   return `${country} has ${population} million people and its
 //  capital city is ${capitalCity}`;
 // };
 // console.log(describeCountry("Iran", 80, "Tehran"));
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣17
 // LECTURE: Function Declarations vs. Expressions
 // 1. The world population is 7900 million people. Create a function declaration
 // called 'percentageOfWorld1' which receives a 'population' value, and
@@ -490,7 +492,112 @@
 // 3. Call 'describePopulation' with data for 3 countries of your choice
 // const describePopulation = function (country, population) {
 //   const percentage = percentageOfWorld3(population) ;
-//   return `${country} has ${population} million people,which is about ${percentage} of the world. `  
+//   return `${country} has ${population} million people,which is about ${percentage} of the world. `
 // };
 // console.log(describePopulation('Iran' , 80));
-// 🟢🟡🟠🔴🔵🟣
+// 🟢🟡🟠🔴🔵🟣18
+// LECTURE: Introduction to Arrays
+// 1. Create an array containing 4 population values of 4 countries of your choice.
+// You may use the values you have been using previously. Store this array into a
+// variable called 'populations'
+// 2. Log to the console whether the array has 4 elements or not (true or false)
+// 3. Create an array called 'percentages' containing the percentages of the
+// world population for these 4 population values. Use the function
+// 'percentageOfWorld1' that you created earlier to compute the 4
+// percentage values
+
+// const populations = [3000, 450, 1240, 2356, 120, 2345, 980, 73629];
+// const percentages = [];
+// function populationWorld() {
+//   for (let i = 0; i < populations.length; i++) {
+//     percentages.push((populations[i] / 7900) * 100);
+//   }
+// }
+// populationWorld();
+// console.table(percentages);
+// 🟢🟡🟠🔴🔵🟣19
+// LECTURE: Basic Array Operations (Methods)
+// 1. Create an array containing all the neighbouring countries of a country of your
+// choice. Choose a country which has at least 2 or 3 neighbours. Store the array
+// into a variable called 'neighbours'
+// 2. At some point, a new country called 'Utopia' is created in the neighbourhood of
+// your selected country. So add it to the end of the 'neighbours' array
+// 3. Unfortunately, after some time, the new country is dissolved. So remove it from
+// the end of the array
+// 4. If the 'neighbours' array does not include the country ‘Germany’, log to the
+// console: 'Probably not a central European country :D'
+// 5. Change the name of one of your neighbouring countries. To do that, find the
+// index of the country in the 'neighbours' array, and then use that index to
+// change the array at that index position. For example, you can search for
+// 'Sweden' in the array, and then replace it with 'Republic of Sweden'.
+
+// const neighbours = ["England", "USA", "Spain", "Turky", "Sweden"];
+
+// neighbours.push("Utopia");
+// // console.log(neighbours);
+
+// neighbours.pop();
+// // console.log(neighbours);
+
+// if (neighbours.includes("German")) {
+//   console.log("Probably not a central European country :D");
+// } else {
+//   console.log("A central European country :D");
+// }
+
+// neighbours[neighbours.indexOf("USA")] = "The USA";
+
+// console.log(neighbours);
+// 🟢🟡🟠🔴🔵🟣20
+// LECTURE: Introduction to Objects
+// 1. Create an object called 'myCountry' for a country of your choice, containing
+// properties 'country', 'capital', 'language', 'population' and
+// 'neighbours' (an array like we used in previous assignments)
+// const myCountry = {
+//   country: "Iran",
+//   capital: "Tehran",
+//   language: "Persion",
+//   population: 80000000,
+//   neighbours: ["turky", "Iraq", "Spain", "France"],
+// };
+// 🟢🟡🟠🔴🔵🟣21
+// LECTURE: Dot vs. Bracket Notation
+// 1. Using the object from the previous assignment, log a string like this to the
+// console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries
+// and a capital called Helsinki.'
+// 2. Increase the country's population by two million usin
+// myCountry.population += 20000;
+// console.table(myCountry.population);
+// console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language} people , ${myCountry.neighbours.length} countries
+//     and a capital called ${myCountry.capital}. `);
+// 🟢🟡🟠🔴🔵🟣22
+// LECTURE: Object Methods
+// 1. Add a method called 'describe' to the 'myCountry' object. This method
+// will log a string to the console, similar to the string logged in the previous
+// assignment, but this time using the 'this' keyword.
+// 2. Call the 'describe' method
+// 3. Add a method called 'checkIsland' to the 'myCountry' object. This
+// method will set a new property on the object, called 'isIsland'.
+// 'isIsland' will be true if there are no neighbouring countries, and false if
+// there are. Use the ternary operator to set the property.
+// const myCountry = {
+//   country: "Iran",
+//   capital: "Tehran",
+//   language: "Persion",
+//   population: 80000000,
+//   neighbours: ["turky", "Iraq", "Spain", "France"],
+//   describe: function () {
+//     console.log(`${this.country} has ${this.population} ${this.language} people , ${this.neighbours.length} countries
+//      and a capital called ${this.capital}. `);
+//   },
+//   checkIsland: function () {
+//     this.isIsland =
+//       this.neighbours.length === 0
+//         ? console.log(`${this.country} has not any neighbour`)
+//         : console.log(`${this.country} has neighbours`);
+//   },
+// };
+// myCountry.describe();
+// myCountry.checkIsland();
+// 🟢🟡🟠🔴🔵🟣23
+
