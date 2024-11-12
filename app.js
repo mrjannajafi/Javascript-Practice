@@ -443,6 +443,7 @@
 // 2. Call this function 3 times, with input data for 3 different countries. Store the
 // returned values in 3 different variables, and log them to the consol
 // debugger ;
+
 // const describeCountry = function (country, population, capitalCity) {
 //   return `${country} has ${population} million people and its
 //  capital city is ${capitalCity}`;
@@ -490,6 +491,7 @@
 // 2. To calculate the percentage, 'describePopulation' call the
 // 'percentageOfWorld1' you created earlier
 // 3. Call 'describePopulation' with data for 3 countries of your choice
+
 // const describePopulation = function (country, population) {
 //   const percentage = percentageOfWorld3(population) ;
 //   return `${country} has ${population} million people,which is about ${percentage} of the world. `
@@ -553,6 +555,7 @@
 // 1. Create an object called 'myCountry' for a country of your choice, containing
 // properties 'country', 'capital', 'language', 'population' and
 // 'neighbours' (an array like we used in previous assignments)
+
 // const myCountry = {
 //   country: "Iran",
 //   capital: "Tehran",
@@ -566,6 +569,7 @@
 // console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries
 // and a capital called Helsinki.'
 // 2. Increase the country's population by two million usin
+
 // myCountry.population += 20000;
 // console.table(myCountry.population);
 // console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language} people , ${myCountry.neighbours.length} countries
@@ -580,6 +584,7 @@
 // method will set a new property on the object, called 'isIsland'.
 // 'isIsland' will be true if there are no neighbouring countries, and false if
 // there are. Use the ternary operator to set the property.
+
 // const myCountry = {
 //   country: "Iran",
 //   capital: "Tehran",
@@ -617,6 +622,7 @@
 // 3. Confirm that 'percentages2' contains exactly the same values as the
 // 'percentages' array that we created manually in the previous assignment,
 // and reflect on how much better this solution is
+
 // const populations = [3000, 450, 1240, 2356, 120, 2345, 980, 73629];
 // const percentages2 = []
 // for (let i = 0; i < populations.length; i++) {
@@ -633,6 +639,7 @@
 // arrays. Log a string like 'Neighbour: Canada' for each country
 // 3. You will need a loop inside a loop for this. This is actually a bit tricky, so don't
 // worry if it's too difficult for you! But you can still try to figure this out anyway 😉
+
 // const listOfNeighbours = [
 //   ["Canada", "Mexico"],
 //   ["Spain"],
@@ -640,20 +647,51 @@
 // ];
 
 // for (let i = 0; i <listOfNeighbours.length; i++) {
-//     for (let y = 0; y < l[i].length; y++) 
+//     for (let y = 0; y < [i].length; y++)
 // console.log(` list is : ${listOfNeighbours[i][y]}`);
 // }
 // 🟢🟡🟠🔴🔵🟣26
+/*
 // LECTURE: The while Loop
 // 1. Recreate the challenge from the lecture 'Looping Arrays, Breaking and Continuing',
 // but this time using a while loop (call the array 'percentages3')
 // 2. Reflect on what solution you like better for this task: the for loop or the while
 // loop?
-// const populations = [309,90, 1240, 2396, 190, 2395, 990, 7399];
-// const percentages3 = [];
-// let i = 0;
-// while (i < populations.length) {
-//   percentages3.push((populations[i] / 7900) * 100);
-//   i++;
-// }
-// console.table(percentages3);
+
+const populations = [309,90, 1240, 2396, 190, 2395, 990, 7399];
+const percentages3 = [];
+let i = 0;
+while (i < populations.length) {
+  percentages3.push((populations[i] / 7900) * 100);
+  i++;
+}
+console.table(percentages3);
+*/
+// 🟢🟡🟠🔴🔵🟣27
+/*
+// Coding Challenge #1
+// Given an array of forecasted maximum temperatures, the thermometer displays a
+// string with the given temperatures. Example: [17, 21, 23] will print "... 17ºC in 1
+// days ... 21ºC in 2 days ... 23ºC in 3 days ..."
+// Your tasks:
+// 1. Create a function 'printForecast' which takes in an array 'arr' and logs a
+// string like the above to the console. Try it with both test datasets.
+// 2. Use the problem-solving framework: Understand the problem and break it up
+// into sub-problems!
+// Test data:
+// § Data 1: [17, 21, 23]
+// § Data 2: [12, 5, -5, 0, 4]
+// GOOD LUCK 😀
+
+const data1 = [17, 21, 23];
+const data2 = [12, 5, -5, 0, 4];
+
+const printForecast = function (arr) {
+  let str = "";
+  for (let i = 0; i < arr.length; i++) {
+    str += `${arr[i]}ºC in ${i + 1} days ...`;
+  }
+  console.log("..." + str);
+};
+printForecast(data1);
+*/
